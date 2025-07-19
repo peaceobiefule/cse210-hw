@@ -19,7 +19,7 @@ public class Scripture
         {
             int index = rand.Next(visibleWords.Count);
             visibleWords[index].Hide();
-            visibleWords.RemoveAt(index); // Ensure no duplicates
+            visibleWords.RemoveAt(index); 
         }
     }
 

@@ -7,7 +7,7 @@ public class Reference
 
     public Reference(string referenceText)
     {
-        // Example: "Proverbs 3:5-6" or "John 3:16"
+        
         var parts = referenceText.Split(' ');
         _book = parts[0];
         var chapterAndVerses = parts[1].Split(':');

@@ -2,11 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-// ==============================
-// Program.cs
-// Exceeds requirements by loading from a random scripture from a small built-in library.
-// Only non-hidden words are selected to hide.
-// ==============================
+
 
 class Program
 {
@@ -19,7 +15,7 @@ class Program
             ("Psalm 23:1", "The Lord is my shepherd; I shall not want.")
         };
 
-        // Pick a random scripture
+        
         var rand = new Random();
         var selected = scriptures[rand.Next(scriptures.Count)];
         Reference reference = new Reference(selected.reference);
