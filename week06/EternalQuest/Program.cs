@@ -1,3 +1,9 @@
+/*
+ * This program exceeds requirements by integrating all classes into a single file for easy submission,
+ * implementing a user-friendly menu system with input validation,
+ * and adding a simple XP and leveling system to enhance user engagement.
+ */
+
 using System;
 using System.Collections.Generic;
 using System.IO;
